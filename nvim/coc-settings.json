@@ -1,0 +1,72 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "json"
+  ],
+  "prettier.semi": false,
+  "prettier.singleQuote": false,
+  "prettier.useTabs": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.tabWidth": 2,
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.hintSign": "",
+  "diagnostic.infoSign": "",
+  "suggest.noselect": true,
+  "suggest.completionItemKindLabels": {
+    "variable": "[] (Variable)",
+    "constant": " ﲀ  (Constant)",
+    "struct": " ﳤ  (Struct)",
+    "class": "   (Class)",
+    "interface": " ﰮ  (Interface)",
+    "text": "   (Text)",
+    "enum": " 練 (Enum)",
+    "enumMember": "   (EnumMember)",
+    "color": "   (Color)",
+    "property": " 襁 (Property)",
+    "field": " ﴲ  (Field)",
+    "unit": "   (Unit)",
+    "file": "   (File)",
+    "value": "   (Value)",
+    "event": "   (Event)",
+    "folder": "   (Folder)",
+    "keyword": "   (Keyword)",
+    "snippet": "   (Snippet)",
+    "operator": "   (Operator)",
+    "reference": "   (Reference)",
+    "typeParameter": "   (TypeParameter)",
+    "function": "   (Function)",
+    "method": "   (Method)",
+    "module": "   (Module)"
+  },
+  "list.height": 10,
+  "hover.floatMaxHeight": 20,
+
+  "Lua.diagnostics.globals": ["vim"],
+  "python.formatting.provider": "black",
+  "python.formatting.blackdPath": "/home/itscarlosecp/anaconda3/bin/black",
+  "clangd.disableSnippetCompletion": true,
+  "clangd.path": "$HOME/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd",
+
+  "languageserver": {
+    "tailwindls": {
+      "module": "$HOME/.local/share/nvim/lspinstall/tailwindcss/tailwindcss-intellisense/extension/dist/server/tailwindServer.js",
+      "filetypes": [
+        "html",
+        "css",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+      ],
+      "rootPatterns": [
+        "tailwind.config.js",
+        "package.json",
+        ".git"
+      ]
+    }
+  }
+}

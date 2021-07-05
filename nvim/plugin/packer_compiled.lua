@@ -73,6 +73,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/FTerm.nvim"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/coc.nvim"
+  },
   ["emmet-vim"] = {
     loaded = true,
     path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/emmet-vim"
@@ -85,10 +89,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
   },
-  ["lspsaga.nvim"] = {
-    loaded = true,
-    path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
-  },
   ["lush.nvim"] = {
     loaded = true,
     path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/lush.nvim"
@@ -100,14 +100,6 @@ _G.packer_plugins = {
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
-  },
-  ["nvim-compe"] = {
-    loaded = true,
-    path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/nvim-compe"
-  },
-  ["nvim-lspconfig"] = {
-    loaded = true,
-    path = "/home/itscarlosecp/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-lspinstall"] = {
     loaded = true,

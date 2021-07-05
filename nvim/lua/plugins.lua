@@ -13,13 +13,10 @@ local use = packer.use
 
 local plugins = function()
   -- LSP
+  use {"neoclide/coc.nvim", branch = "release"}
   use {
-    "neovim/nvim-lspconfig",
-    requires = {
-      "kabouzeid/nvim-lspinstall",
-      "hrsh7th/nvim-compe",
-      "glepnir/lspsaga.nvim"
-    }
+    "kabouzeid/nvim-lspinstall",
+    requires = {"neovim/nvim-lspconfig"}
   }
 
   -- SYNTAX HIGHLIGHT
