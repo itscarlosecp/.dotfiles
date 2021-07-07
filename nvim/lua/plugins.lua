@@ -9,9 +9,26 @@ local packer = require 'packer'
 local use = packer.use
 
 local function plugins()
-	use 'kyazdani42/nvim-tree.lua'
+	-- LSP
+	use {'neovim/nvim-lspconfig'}
+	use {'kabouzeid/nvim-lspinstall', event = 'BufRead'}
 
-	use 'wbthomason/packer.nvim'
+	-- Autocomplete
+	use {
+		'hrsh7th/nvim-compe',
+		event = 'InsertEnter',
+		config = function()
+			require '_compe'.config()
+		end
+	}
+
+	-- Syntax
+	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+
+	-- File Explorer
+	use {'kyazdani42/nvim-tree.lua'}
+
+	use {'wbthomason/packer.nvim'}
 end
 
 return packer.startup(plugins)
