@@ -14,6 +14,7 @@ alias la="ls -Aogh --group-directories-first"
 alias .files="cd $HOME/.dotfiles"
 alias dev="cd $HOME/dev"
 alias uba="cd $HOME/UBA"
+alias nvim-perf="nvim --startuptime startup.log -c exit && tail -100 startup.log"
 
 count() {
 	find . -name "*.$1" | xargs wc -l
